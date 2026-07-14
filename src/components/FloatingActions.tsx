@@ -2,7 +2,7 @@
 
 export default function FloatingActions() {
   const primaryWhatsApp = "https://wa.me/918810662026?text=Hi%20Choomantar,%20I%20am%20visiting%20your%20website%20and%20would%20like%20to%20enquire.";
-  const instagramUrl = "https://instagram.com";
+  const instagramUrl = "https://www.instagram.com/choomantar.naggar/";
 
   return (
     <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-center gap-2 sm:gap-3">
