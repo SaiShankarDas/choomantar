@@ -15,8 +15,26 @@ const serifFont = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Choomantar | Raw Beauty of Naggar",
-  description: "A Rustic Retreat in Sharan Village, Naggar. Experience traditional architecture, peaceful vibes, and mountain views.",
+  title: "Choomantar Mudhouse | Rustic Retreat in Naggar, Himachal",
+  description: "Experience the raw beauty of Naggar at Choomantar Mudhouse. A rustic, traditional retreat in Sharan Village with mountain views, natural architecture, and peaceful vibes.",
+  keywords: ["Choomantar", "Mudhouse", "Naggar", "Himachal Pradesh", "Homestay", "Rustic Retreat", "Mountain View", "Sharan Village", "Manali", "Eco-friendly stay"],
+  openGraph: {
+    title: "Choomantar Mudhouse | Raw Beauty of Naggar",
+    description: "Experience the raw beauty of Naggar at Choomantar Mudhouse. A rustic, traditional retreat in Sharan Village.",
+    url: "https://choomantar-website.vercel.app",
+    siteName: "Choomantar Mudhouse",
+    locale: "en_IN",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Choomantar Mudhouse | Raw Beauty of Naggar",
+    description: "Experience the raw beauty of Naggar at Choomantar Mudhouse.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
