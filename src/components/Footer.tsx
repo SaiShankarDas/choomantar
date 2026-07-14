@@ -26,7 +26,7 @@ export default function Footer() {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <a 
-            href="https://wa.me/911234567890" 
+            href="https://wa.me/918810662026?text=Hi%20Choomantar,%20I%20would%20like%20to%20book%20a%20stay." 
             target="_blank" 
             rel="noopener noreferrer"
             className={cn(buttonVariants({ variant: "default", size: "lg" }), "bg-clay text-sand hover:bg-clay/90 hover:-translate-y-1 transition-all duration-300 text-xl px-12 py-8 rounded-full mb-20 shadow-2xl")}
@@ -41,10 +41,10 @@ export default function Footer() {
           </div>
           
           <div className="flex gap-8 mb-6 md:mb-0">
-            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-sand/70 hover:text-clay transition-colors hover:-translate-y-1 transform duration-300">
+            <a href="https://www.instagram.com/choomantar.naggar/" target="_blank" rel="noopener noreferrer" className="text-sand/70 hover:text-clay transition-colors hover:-translate-y-1 transform duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
             </a>
-            <a href="tel:+911234567890" className="text-sand/70 hover:text-clay transition-colors hover:-translate-y-1 transform duration-300">
+            <a href="tel:+918810662026" className="text-sand/70 hover:text-clay transition-colors hover:-translate-y-1 transform duration-300">
               <Phone className="w-6 h-6" />
             </a>
             <a href="mailto:hello@choomantar.com" className="text-sand/70 hover:text-clay transition-colors hover:-translate-y-1 transform duration-300">
